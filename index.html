@@ -12,17 +12,19 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body class="bg-amber-50 font-poppins">
+    
     <div class="container mx-auto px-4 py-8 max-w-6xl">
         <!-- Logo -->
-        <div class="flex justify-center mb-6">
+        <div class="flex justify-center" data-aos="flip-left">
             <img src="logo.png" alt="Canela Café Logo" class="max-h-40 w-auto">
         </div>
 
         <!-- Header -->
-        <header class="text-center mb-12" data-aos="fade-down">
+        <header class="text-center mb-4" data-aos="fade-down">
 
             <div class="flex justify-center items-center">
                 <div class="h-1 w-16 bg-amber-600"></div>
@@ -30,7 +32,7 @@
                 <div class="h-1 w-16 bg-amber-600"></div>
             </div>
             <!-- Link do Instagram com ícone -->
-            <div class="mt-4">
+            <div class="mt-2">
                 <a href="https://www.instagram.com/canelacafe_alameda/" target="_blank"
                     class="inline-flex items-center justify-center bg-gradient-to-r from-pink-500 to-amber-600 text-white px-4 py-2 rounded-full hover:shadow-lg transition-all">
                     <i class="fab fa-instagram mr-2"></i>
@@ -48,39 +50,39 @@
                     <i class="fas fa-utensils mr-2"></i> Tudo
                 </button>
                 <button
-                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1"
+                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1 rounded-full"
                     data-category="sandwiches">
                     <i class="fas fa-burger mr-2"></i> Sanduíches
                 </button>
                 <button
-                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1"
+                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1 rounded-full"
                     data-category="dishes">
                     <i class="fas fa-utensils mr-2"></i> Pratos
                 </button>
                 <button
-                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1"
+                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1 rounded-full"
                     data-category="drinks">
-                    <i class="fas fa-glass-water mr-2"></i> Bebidas
+                    <i class="fas fa-coffee mr-2"></i> Bebidas
                 </button>
                 <button
-                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1"
+                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1 rounded-full"
                     data-category="coffees">
                     <i class="fas fa-mug-hot mr-2"></i> Cafés
                 </button>
                 <button
-                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1"
+                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1 rounded-full"
                     data-category="desserts">
                     <i class="fas fa-cookie-bite mr-2"></i> Doces
                 </button>
                 <button
-                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1"
+                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1 rounded-full"
                     data-category="savories">
                     <i class="fas fa-bread-slice mr-2"></i> Salgados
                 </button>
                 <button
-                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1"
+                    class="category-btn flex items-center text-amber-900 whitespace-nowrap hover:text-amber-600 transition-colors px-3 py-1 rounded-full"
                     data-category="orders">
-                    <i class="fas fa-bread-slice mr-2"></i> Encomendas
+                    <i class="fas fa-calendar-check mr-2"></i> Encomendas
                 </button>
             </div>
         </nav>
@@ -229,7 +231,7 @@
             <section data-category="drinks" class="category-section" data-aos="zoom-in" data-aos-delay="200">
                 <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow p-6 h-full">
                     <div class="flex items-center mb-4">
-                        <i class="fas fa-glass-water text-2xl text-amber-600 mr-3"></i>
+                        <i class="fas fa-coffee text-2xl text-amber-600 mr-3"></i>
                         <h2 class="text-2xl font-playfair font-bold text-amber-900">Bebidas</h2>
                     </div>
                     <div class="space-y-4">
@@ -585,7 +587,7 @@
 
         <!-- Footer -->
         <footer class="mt-12 text-center" data-aos="fade-up">
-            <div class="bg-white rounded-xl shadow-inner p-6 max-w-2xl mx-auto">
+            <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow p-6 h-full max-w-6xl mx-auto">
                 <!-- Logo -->
                 <div class="flex justify-center mb-6">
                     <img src="logo.png" alt="Canela Café Logo" class="max-h-24 w-auto">
@@ -601,12 +603,12 @@
                 </div>
 
                 <p class="text-sm text-gray-600 mt-4">Encomende seu coffebreak personalizado conosco!</p>
+                <p class="font-mono text-sm text-gray-600 mt-4">Direitos reservados © Canela Café 2024</p>
             </div>
         </footer>
         <div class="mt-12 text-center text-xs text-gray-500">
             <div class="inline-flex items-center space-x-2">
-                <span>Designed with</span>
-                <span class="text-red-500"><i class="fas fa-heart"></i></span>
+                <span>Designed</span>
                 <span>by</span>
                 <a href="https://github.com/p-macedo" target="_blank"
                     class="text-amber-600 hover:text-amber-800 font-mono">
@@ -615,71 +617,8 @@
             </div>
         </div>
     </div>
-
-    <script>
-        // Inicializar AOS
-        AOS.init({
-            duration: 800,
-            once: true,
-            easing: 'ease-out-quad'
-        });
-
-        // Filtro de categorias
-        document.querySelectorAll('.category-btn').forEach(button => {
-            button.addEventListener('click', () => {
-                // Atualizar botão ativo
-                document.querySelectorAll('.category-btn').forEach(btn => {
-                    btn.classList.remove('bg-amber-100', 'font-medium');
-                    btn.classList.add('font-normal');
-                });
-                button.classList.add('bg-amber-100', 'font-medium');
-                button.classList.remove('font-normal');
-
-                // Filtrar itens
-                const category = button.dataset.category;
-                document.querySelectorAll('.category-section').forEach(section => {
-                    if (category === 'all' || section.dataset.category === category) {
-                        section.style.display = 'block';
-                        section.setAttribute('data-aos', 'zoom-in');
-                        AOS.refreshHard();
-                    } else {
-                        section.style.display = 'none';
-                    }
-                });
-            });
-        });
-
-        // Mostrar todos os itens inicialmente
-        document.querySelector('.category-btn[data-category="all"]').click();
-    </script>
-
-    <style>
-        .font-playfair {
-            font-family: 'Playfair Display', serif;
-        }
-
-        .font-poppins {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .menu-item {
-            padding: 0.75rem 0;
-            border-bottom: 1px solid #f3f4f6;
-        }
-
-        .menu-item:last-child {
-            border-bottom: none;
-        }
-
-        .scrollbar-hide::-webkit-scrollbar {
-            display: none;
-        }
-
-        .scrollbar-hide {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-    </style>
+    
+    <script src="js/utils.js"></script>
 
 </body>
 
